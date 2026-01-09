@@ -9,8 +9,8 @@
     "lint:fix": "prettier --write .",
     "prepare": "husky",
     "commit": "cz",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "npm run dev &jest",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
